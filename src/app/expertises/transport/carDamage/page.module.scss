@@ -1,0 +1,96 @@
+.main {
+  padding: 30px 15%;
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.HeadWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.mainDescription {
+  display: flex;
+  align-items: flex-end;
+}
+
+.valueWrapper {
+  width: 110vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 15%;
+}
+
+.cardRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  overflow-y: hidden;
+}
+
+.documentWrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.bulletWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+
+.document {
+  width: 250px;
+  height: auto;
+}
+
+.link {
+  color: #0085FF;
+  font-family: "HalvarRegularMittelschrift";
+  font-size: 18px;
+
+  text-decoration-line: underline;
+  color: #0085FF;
+  margin-bottom: 60px;
+
+}
+
+.logoDescWrapper {
+  margin-top: 30px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.bankImage {
+  width: 219px;
+  height: 63px;
+}
+
+.mediaWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mediaWrapperImage{
+  width: 50%;
+  height: auto;
+}

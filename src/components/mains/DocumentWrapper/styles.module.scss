@@ -1,0 +1,22 @@
+
+.desc{
+    font-family: 'HalvarRegularMittelschrift';
+    font-size: 20px;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.Wrapper{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #CF9789;
+}

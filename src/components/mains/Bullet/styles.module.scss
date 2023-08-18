@@ -1,0 +1,18 @@
+.Wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Bullet{
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #AD442A;
+}
+
+.Text{
+    font-family: 'HalvarRegularMittelschrift';
+    font-size: 18px;
+    line-height: 120%;
+}

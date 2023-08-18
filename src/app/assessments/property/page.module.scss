@@ -1,0 +1,44 @@
+
+.main{
+  padding: 30px 15%;
+}
+
+.mainImage{
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.HeadWrapper{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+  width: 750px;
+
+}
+
+.cardRow{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  overflow-y: hidden;
+}
+
+.cards{
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.bulletWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.document{
+  width: 250px;
+  height: auto;
+}

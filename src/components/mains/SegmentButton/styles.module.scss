@@ -1,0 +1,40 @@
+
+
+.headline{
+    font-family: 'HalvarBold';
+    font-size: 40px;
+    line-height: 110%;
+}
+
+
+.active{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'HalvarMediumMittelschrift';
+    background-color: #AD442A;
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    &:hover{
+        opacity: 0.7;
+    }
+}
+
+.default{
+    color: #000000;
+    font-size: 18px;
+    font-family: 'HalvarMediumMittelschrift';
+    background-color: #D9D9D9;
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.7;
+    }
+}

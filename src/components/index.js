@@ -16,5 +16,5 @@ export { default as Row } from '@/components/mains/row/Row';
 export { default as SegmentButton } from '@/components/mains/SegmentButton/SegmentButton';
 export { default as Value } from '@/components/mains/Value/Value';
 export { default as Table } from '@/components/mains/Table/Table';
-export { default as Stepper } from '@/components/mains/Stepper/Stepper';
+export { default as Stepper } from '@/components/mains/Stepper/Stepper' ;
 export { default as Benefits } from '@/components/mains/Benefits/Benefits';

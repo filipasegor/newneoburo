@@ -1,0 +1,33 @@
+
+.textWrapper{
+    width: 70%;
+}
+
+.Wrapper{
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 15px;
+    border-radius: 20px;
+    background: #FFF;
+    align-items: stretch;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.line{
+    width: 4px;
+    background: #B85F49;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.icon{
+    z-index: 1;
+}

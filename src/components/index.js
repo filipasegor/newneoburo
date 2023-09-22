@@ -1,5 +1,6 @@
 
 export { default as Headline } from '@/components/typography/Headline/Headline';
+export { default as HeadlineMd } from '@/components/typography/Headline/HeadlineMd';
 export { default as HeadlineSm } from '@/components/typography/Headline/HeadlineSm';
 export { default as SubHeading } from '@/components/typography/SubHeading/SubHeading';
 export { default as Text } from '@/components/typography/Text/Text';
@@ -14,3 +15,6 @@ export { default as LogoDesc } from '@/components/mains/LogoDesc/LogoDesc';
 export { default as Row } from '@/components/mains/row/Row';
 export { default as SegmentButton } from '@/components/mains/SegmentButton/SegmentButton';
 export { default as Value } from '@/components/mains/Value/Value';
+export { default as Table } from '@/components/mains/Table/Table';
+export { default as Stepper } from '@/components/mains/Stepper/Stepper';
+export { default as Benefits } from '@/components/mains/Benefits/Benefits';

@@ -1,0 +1,27 @@
+
+.row{
+    display: flex;
+    padding: 20px 0px;
+    align-items: flex-start;
+    gap: 20%;
+    align-self: stretch;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.20);
+
+    p{
+     font-size: 21px;
+    }
+}
+
+.last{
+    border-bottom: none;
+}
+
+.labelCell {
+    font-family: 'HalvarLightMittelschrift';
+    width: 50%;
+}
+
+.valueCell{
+    font-family: 'HalvarLightMittelschrift';
+    width: 20%;
+}

@@ -1,5 +1,5 @@
 .main {
-  padding: 30px 15%;
+  padding: 30px 17%;
 }
 
 .mainImage {
@@ -15,17 +15,15 @@
   margin-bottom: 40px;
 }
 
-.mainDescription {
-  display: flex;
-  align-items: flex-end;
+.tableWrapper{
+  margin: 20px 0px;
 }
 
+
 .valueWrapper {
-  width: 110vw;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
   gap: 15%;
+  margin-top: 50px;
 }
 
 .cardRow {
@@ -83,14 +81,19 @@
 }
 
 .mediaWrapper {
+  margin-top: 50px;
   display: flex;
-  width: 100%;
+  width: auto;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
+.textMediaWrapper{
+  width: 60%;
+}
+
 .mediaWrapperImage{
-  width: 50%;
+  width: 30%;
   height: auto;
 }

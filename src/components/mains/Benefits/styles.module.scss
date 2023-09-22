@@ -1,0 +1,20 @@
+
+.Wrapper{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.rowWrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 95px;
+    padding: 30px 0px;
+}
+
+.itemWrapper{
+    width: 50%;
+}
+
+.icon{
+    margin-bottom: 10px;
+}

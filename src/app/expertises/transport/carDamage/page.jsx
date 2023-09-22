@@ -5,6 +5,7 @@ import styles from './page.module.scss'
 
 import {
   Headline,
+  HeadlineMd,
   HeadlineSm,
   SubHeading,
   Text,
@@ -18,7 +19,10 @@ import {
   Value,
   ImgWrapper,
   ArrowBack,
-  DocumentWrapper
+  DocumentWrapper,
+  Table,
+  Stepper,
+  Benefits
 } from '@/components/index'
 
 import Images from '@/assets/index';
@@ -34,12 +38,12 @@ export default function ExpertisesCarDamage() {
     <main className={styles.main}>
       <ArrowBack />
       <div className={styles.HeadWrapper}>
-        <Headline style={{marginBottom:"50px", width:"70%" }}>Оценка стоимости ущерба автомобиля</Headline>
+        <Headline style={{marginBottom:"50px"}}>Экспертиза стоимости восстановительного ремонта</Headline>
         <div className={styles.mainDescription}>
-          <Text>Если ваше авто пострадало, то мы посчитаем стоимость ущерба, чтобы вы могли возместить полную стоимость и сделать ремонт.</Text>
+          <Text style={{width:"70%"}}>Независимая авто-техническая экспертиза стоимости восстановительного ремонта проводится в целях установления обстоятельств причинения вреда транспортному средству, установления повреждений транспортного средства и их причин, технологии, методов и стоимости его восстановительного ремонта</Text>
           <div className={styles.valueWrapper}>
-            <Value label="Стоимость" value="от 4 000 ₽"></Value>
-            <Value label="Срок" value="от 4 дней"></Value>
+            <Value label="Стоимость" value="от 10 000 ₽"></Value>
+            <Value label="Срок" value="от 7 дней"></Value>
           </div>
         </div>
       </div>
@@ -49,52 +53,82 @@ export default function ExpertisesCarDamage() {
         src={Images.cardamage}>
       </Image>
 
-      <HeadlineSm>​​Для чего нужна оценка ущерба</HeadlineSm>
+      <HeadlineMd>​В каких случаях нужна экспертиза стоимости восстановительного ремонта</HeadlineMd>
       <div className={styles.bulletWrapper}>
-        <Bullet>Чтобы от страховой потребовать конпенсацию</Bullet>
-        <Bullet>Для судебных разбирательств</Bullet>
-        <Bullet>Для виновника ДТП, чтобы убедиться в достоверности стоимости ремонта</Bullet>
-        <Bullet>Если страховая выплатила меньше, чем стоимость ремонта</Bullet>
+        <Bullet>Страховая компания не признает ДТП страховым случаем и не выплачивает компенсацию</Bullet>
+        <Bullet>Вас не устраивает размер выплаты, которую предлагает страховая компания</Bullet>
+        <Bullet>Лицензия страховой организации была отозвана</Bullet>
+        <Bullet>У виновника ДТП отсутствует страховой полис</Bullet>
+        <Bullet>Для подготовки претензии к дорожным службам, а также к службам ЖКХ, если ваше транспортное средство пострадало по их вине</Bullet>
+        <Bullet>При порчи Вашего транспортного средства в случаях действий третьих лиц</Bullet>
+        <Bullet>В случаях, когда Вы виноваты в ДТП и уверены, что ущерб автомобилю пострадавшего не такой, как указано в результатах предъявляемой вам экспертизы</Bullet>
       </div>
 
-      <HeadlineSm>Какие документы необходимы для проведения экспертизы</HeadlineSm>
-      <div className={styles.documentWrapper}>
-        <DocumentWrapper src={Images.FlatDoc1} alt="FlatDoc1" desc="Паспорт" />
-        <DocumentWrapper src={Images.FlatDoc2} alt="FlatDoc2" desc="Страховка Авто" />
-        <DocumentWrapper src={Images.FlatDoc3} alt="FlatDoc3" desc="Карточка Авто" />
-        <DocumentWrapper src={Images.FlatDoc3} alt="FlatDoc3" desc="Фотографии ущерба авто" />
-      </div>
-
-      <HeadlineSm style={{marginTop: "100px" }}>Как проводится экспертиза</HeadlineSm>
-      <div className={styles.bulletWrapper}>
-        <Bullet>Оценка недвижимости начинается с предварительной консультации и заключения договора</Bullet>
-        <Bullet>В договоре обозначается задание на оценку, сроки проведения стоимость услуг</Bullet>
-        <Bullet>После получения копий документов, при необходимости, наш специалист выезжает на осмотр объекта оценки, осматривает объект и проводит фотофиксацию</Bullet>
-        <Bullet>Эксперт изучает все полученные материалы и на основе их составляет отчет и заключение проведенной экспертизы. Мы высылаем отчет для ознакомления перед как его напечатать</Bullet>
-        <Bullet>Финальный отчет мы отправляем клиенту на электронную почту вместе с актом оказанных услуг. Далее печатаем и прошиваем отчет. При необходимости доставляем отчет по адресу</Bullet>
+      <HeadlineMd>Стоимость услуг</HeadlineMd>
+      <div className={styles.tableWrapper}>
+        <Table label="Первичная консультация" firstValue="Бесплатно" secondValue="—" ></Table>
+        <Table label="Проведение экспертизы стоимости восстановительного ремонта и составление отчета" firstValue="От 7000 ₽" secondValue="3-5 дней"></Table>
+        <Table label="Предварительный расчет стоимости восстановительного ремонта без отчета" firstValue="От 4000 ₽(входит в стоимость экспертизы)" secondValue="1-3 дня"></Table>
+        <Table label="Осмотр транспортного средства рядом с любым из офисов «НЭО Бюро»" firstValue="Бесплатно" secondValue="1 день"></Table>
+        <Table label="Выезд эксперта к месту осмотра транспортного средства" firstValue="От 1000 ₽" secondValue="1-3 дня"></Table>
+        <Table label="Цветная копия экспертного заключения" firstValue="Бесплатно" secondValue="1 день"></Table>
+        <Table label="Подготовка досудебной претензии" firstValue="5000 ₽" secondValue="3-5 дней"></Table>
+        <Table label="Отправка телеграммы виновнику" firstValue="1500 ₽" secondValue="1 день"></Table>
+        <Table last label="Курьерская доставка заключения" firstValue="От 1000 ₽" secondValue="1-3 дня"></Table>
       </div>
 
       <div className={styles.mediaWrapper}>
         <div className={styles.textMediaWrapper}>
-          <HeadlineSm>Что по итогу клиент<br /> получает</HeadlineSm>
-          <Text style={{ width: "500px", marginTop: "20px", marginBottom: "20px" }}>
-          Мы считаем конечную стоимость ущерба, и все эти рассчеты и заключения формируем в официальный отчет. Этот отчет имеет юридическую силу. Поэтому вы можете с помощью него требовать конпенсацию от страховой или отстаивать свои права в суде
-          </Text>
-          <Link href="https://intellect-valuation.ru/files/131" className={styles.link}>Посмотреть пример отчета</Link>
-        </div>
+        <HeadlineMd>Как мы еще помогаем клиентам</HeadlineMd>
+        <Text style={{marginTop: "20px", marginBottom: "20px" }}>Консультируем и сопровождаем клиента при спорах со страховыми компаниями, виновниками, причинителями ущерба, а также при необходимости, представление его интересов в суде</Text> 
+        </div>       
         <Image
           className={styles.mediaWrapperImage}
           alt="otchet"
-          src={Images.otchet}>
+          src={Images.Lifebuoy}>
         </Image>
       </div>
 
-      <HeadlineSm style={{marginTop: "100px" }}>Кто будет проводить экспертизу</HeadlineSm>
-      <Text style={{ width: "730px", marginTop: "20px" }}>Эксперты-техники с образованием эксперта-оценщика и актуальной лицензией СРО</Text>
 
+      <HeadlineMd style={{marginTop: "100px" }}>Как проводится экспертиза</HeadlineMd>
+      <Stepper 
+        headline="Консультация по экспертизе" 
+        text="На первом этапе специалист анализирует все документы, предоставляемые клиентом. Он расспрашивает о целях экспертизы и консультирует по дальнейшим действиям" 
+        src={Images.headphones}
+        lineHeight={{height: "200px"}}
+        >
+      </Stepper>
+      <Stepper 
+        headline="Осмотр поврежденного транспортного средства" 
+        text="На втором этапе подписывается договор, вносится оплата, назначается время и место проведения осмотра. Эксперт может осмотреть автомобиль рядом с любым из офисов «НЭО Бюро». Если машина сильно повреждена, производится выезд эксперта к месту ее стоянки. Если автомобиль имеет скрытые повреждения, осмотр автомобиль необходимо проводить в условиях СТО. Эксперт описывает выявленные повреждения, фотографирует их, собирает данные для расчетов и формирования экспертного заключения"
+        src={Images.search}
+        lineHeight={{height: "270px"}}
+        >
+      </Stepper>
+      <Stepper 
+        headline="Подготовка экспертного заключения" 
+        text="На третьем этапе, эксперт проводит необходимые расчеты, формирует экспертное заключение и передает его Вам либо Вашему представителю лично в руки, либо посредством служб курьерской доставки"
+        src={Images.paper}
+        lineHeight={{height: "0px"}}
+        >
+      </Stepper>
+
+      <HeadlineMd style={{marginTop: "100px" }}>Почему клиенты обращаются к нам</HeadlineMd>
+      <Benefits 
+          firstSrc={Images.diamond}
+          firstText="Высокое качество услуг, оказываемое специалистами с многолетним опытом и навыками в этой сфере"
+          secondSrc={Images.helmet}
+          secondText= "Грамотная и профессиональная подготовка экспертных заключений и отчетов об оценке независимо от сложности ситуаций и исследований;"
+          thirdSrc={Images.headset}
+          thirdText="Квалифицированные консультации специалистов, в любых ситуациях и обстоятелсьтвах"
+          fourthSrc={Images.percent}
+          fourthText="Выгодная стоимость квалифицированных экспертиз и отчетов об оценке со скидками и специальными предложениями для постоянных клиентов"
+          > 
+      </Benefits>
       <ImgWrapper 
-      headline="Лицензии"
-      text="Наши клиенты могут быть уверены в профессионализме нашей команды: мы имеем СРО на проектные и монтажные работы, а также все разрешительные документы и допуски"
+      className="Shadow"
+      headline="Все необходимые лицензии и дипломы наших специалистов"
+      text="Наши клиенты могут быть уверены в профессионализме нашей команды. Мы имеем все необходимые лицензии и документы, которые это подтверждают"
       >
         <Image
           className={styles.document}

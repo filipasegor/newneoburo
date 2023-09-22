@@ -25,7 +25,7 @@ export default function LeftSide() {
         <div className={styles.navbar}>
           <Link className={styles.link} href="/assessments">Оценка</Link>   
           <Link className={styles.link} href="/expertises">Экспертиза</Link>
-          <Link className={styles.link} href="/laws">Юридическая<br />поддержка</Link> 
+          <Link className={styles.link} href="/laws">Юридические<br />услуги</Link> 
           <Link className={styles.link} href="/team">Эксперты</Link> 
           <Link className={styles.link} href="/about">О компании</Link>
           <Link className={styles.link} href="/contacts">Контакты</Link>

@@ -34,6 +34,14 @@ import cardamage from './cardamage.png'
 import offices from './offices.png'
 import carCost from './carCost.png'
 import clothes from './clothes.png'
+import Lifebuoy from './Lifebuoy.png'
+import paper from './paper.svg'
+import search from './search.svg'
+import headphones from './headphones.svg'
+import percent from './percent.svg'
+import helmet from './helmet.svg'
+import headset from './headset.svg'
+import diamond from './diamond.svg'
 
 // import propertyDoc1 from '../../../../../propertyDoc1.png'
 // import propertyDoc2 from '../../../../../propertyDoc2.png'
@@ -68,7 +76,15 @@ const Images = {
     cardamage,
     offices,
     carCost,
-    clothes
+    clothes,
+    Lifebuoy,
+    headphones,
+    paper,
+    search,
+    percent,
+    helmet,
+    headset,
+    diamond
 };
 
 export default Images;

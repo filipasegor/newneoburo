@@ -109,7 +109,7 @@ export default function ExpertisesCarDamage() {
         headline="Подготовка экспертного заключения" 
         text="На третьем этапе, эксперт проводит необходимые расчеты, формирует экспертное заключение и передает его Вам либо Вашему представителю лично в руки, либо посредством служб курьерской доставки"
         src={Images.paper}
-        lineHeight={{height: "0px"}}
+        lineHeight={{height:"0px"}}
         >
       </Stepper>
 

@@ -42,8 +42,8 @@ export default function Expertises() {
 
             <Link className={styles.SubHeadingLink} href="/expertises">Автотехническая экспертиза</Link>
 
-            <Link className={styles.pageLink} href="expertises/transport/cardamage">Экспертиза стоимости восстановительного ремонта</Link>
-            <Link className={styles.pageLink} href="/expertises/transport/carcost">Экспертиза утраты товарной стоимости</Link>
+            <Link className={styles.pageLink} href="expertises/transport/carDamage">Экспертиза стоимости восстановительного ремонта</Link>
+            <Link className={styles.pageLink} href="/expertises/transport/carCost">Экспертиза утраты товарной стоимости</Link>
             <Link className={styles.pageLink} href="/expertises">Экспертиза годных остатков</Link>
             <Link className={styles.pageLink} href="/expertises">Экспертиза обстоятельств ДТП</Link>
             <Link className={styles.pageLink} href="/expertises">Транспортно-трасологическая экспертиза</Link>

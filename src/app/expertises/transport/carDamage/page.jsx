@@ -29,7 +29,7 @@ import Images from '@/assets/index';
 
 
 export const metadata = {
-  title: 'Оценка стоимости ущерба автомобиля',
+  title: 'Экспертиза стоимости восстановительного ремонта',
   description: 'Оценка стоимости ущерба автомобиля',
 }
 

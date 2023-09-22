@@ -4,7 +4,8 @@ import Link from 'next/link'
 
 import { 
   Headline, 
-  HeadlineMd, 
+  HeadlineMd,
+  HeadlineSm, 
   SubHeading, 
   Text, 
   TextBold, 
